@@ -1,0 +1,111 @@
+.shadow-5 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12),
+    0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+@font-face {
+    font-family: Circular;
+    src: url(../fonts/CircularSpotifyTxT-Black.ttf);
+}
+
+@keyframes wallpaper {
+    from{background-size: 1%}
+    to{background-size: 10%}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+div{
+    user-select: none;
+}
+
+body {
+    background-color: #364156;
+    background-image: url("../img/pattern.jpg");
+    background-size: 20%;
+    background-repeat: repeat;}
+
+.header-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: Circular, serif;
+    color: white;
+}
+
+.page {
+    display: block;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgba(90, 169, 230, 0.7);
+    z-index: 1;
+    justify-self: center;
+    padding-top: 5px;
+
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.nav-menu ul li {
+    margin-left: 5px;
+}
+
+.photo img {
+    max-width: 250px;
+    border-radius: 3%;
+    display: flex;
+}
+
+
+.main-body .profile {
+    display: flex;
+    flex-flow: row;
+    margin: 30px;
+}
+
+.bio {
+    font-family: Circular, serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+    user-select: none;
+}
+
+.knowledges {
+    font-family: Circular, serif;
+    font-size: 20px;
+    width:fit-content;
+    text-align: center;
+    color: #FFF;
+}
+
+.knowledges ul {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+    justify-content: left;
+}
+
+.knowledges ul li {
+    margin-left: 5px;
+    display: inline-flex;
+    flex-flow: row;
+    vertical-align: middle;
+}
+
+.page-footer{
+    padding: 4px 0;
+    color: white;
+    text-align: left;
+    display: block;
+    background-color: #003049;
+}
